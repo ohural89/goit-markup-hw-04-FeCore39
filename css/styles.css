@@ -217,7 +217,9 @@ p {
 
 /* HERO */
 .hero-section {
-    background-color: var(--footer-bg);
+    background-image: url(../imgs/desk-cap/cap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 200px 0;
 }
 
