@@ -11,6 +11,7 @@
     --titles-color: rgba(33, 33, 33, 1);
     --text-color: rgba(117, 117, 117, 1);
     --header-border: rgba(236, 236, 236, 1);
+    --icon-main-fill: rgba(175, 177, 184, 1);
 }
 
 /* RESET STYLES */
@@ -373,7 +374,7 @@ p {
 }
 
 .social-icons {
-    fill: rgb(175, 177, 184);    
+    fill: var(--icon-main-fill);    
 }
 
 .social-icons-box:hover .social-icons,
@@ -383,6 +384,46 @@ p {
 
 
 /* END OUR TEAM */
+
+/* REGULAR CLIENTS */
+.regular-clients-list {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.regular-clients-logotype {
+    margin-top: 30px;
+    margin-left: 30px;
+
+    flex-basis: calc((100% / 6) - 30px);
+}
+
+.regular-clients-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid var(--icon-main-fill);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+
+.regular-clients-icon {
+    fill: var(--icon-main-fill);
+}
+
+.regular-clients-box:hover,
+.regular-clients-box:focus {
+    border: 1px solid var(--spec-accent-color);
+}
+
+.regular-clients-box:hover .regular-clients-icon,
+.regular-clients-box:focus .regular-clients-icon {
+    fill: var(--spec-accent-color);
+}
+/* END REGULAR CLIENTS*/ 
 
 /* FOOTER */
 .footer-logo {

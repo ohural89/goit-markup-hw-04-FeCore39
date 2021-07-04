@@ -37,92 +37,12 @@
                 </ul>
             -->
 
-<!--
-            <section>
-                <h2>Regular clients</h2>
-                <ul>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        -->
+
 
 
     
             <!--
-            <section>
-                <p>Join in!</p>
-                <ul>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" rel="noopener noreferrer">
-                            <svg>
-                                <use href=""></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+
 
             <section>
                 <p>Subscription</p>
