@@ -317,6 +317,19 @@ p {
 /* END WHAT WE DO */
 
 /* OUR TEAM */
+.section-box {
+    background: var(--norm-accent-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                0px 1px 1px rgba(0, 0, 0, 0.14),   
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-text-wrap {
+    padding: 30px 0;
+    text-align: center;
+}
+
 .our-team {
     background-color: var(--spec-bg-color);
 }
@@ -333,22 +346,42 @@ p {
 .our-team-name {
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 16px;
     /* line-height: 19px; */
 }
 
-
-.section-box {
-    background: var(--norm-accent-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-                0px 1px 1px rgba(0, 0, 0, 0.14),   
-                0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+.our-team-social-icons {
+    display: inline-flex;
 }
 
-.section-text-wrap {
-    padding: 30px 0;
-    text-align: center;
+.our-team-social-icons .social-icon-item:not(:last-child) {
+    padding-right: 10px;
 }
+
+.social-icons-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-icons-box:hover,
+.social-icons-box:focus {
+    background-color: var(--spec-accent-color);
+}
+
+.social-icons {
+    fill: rgb(175, 177, 184);    
+}
+
+.social-icons-box:hover .social-icons,
+.social-icons-box:hover .social-icons {
+    fill: var(--norm-accent-color);
+}
+
+
 /* END OUR TEAM */
 
 /* FOOTER */
