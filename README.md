@@ -35,15 +35,7 @@
                     <li><a href="#" rel="noopener noreferrer">Facebook</a></li>
                     <li><a href="#" rel="noopener noreferrer">LinkedIn</a></li>
                 </ul>
-            -->
-
-
-
-
-    
-            <!--
-
-
+            
             <section>
                 <p>Subscription</p>
                 <form>
