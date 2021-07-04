@@ -426,6 +426,10 @@ p {
 /* END REGULAR CLIENTS*/ 
 
 /* FOOTER */
+.footer-flex {
+    display: flex;
+}
+/* FOOTER ADDRESS */
 .footer-logo {
     margin-bottom: 20px;
 }
@@ -451,6 +455,52 @@ p {
 .footer-contacts {
     color: var(--footer-contact-text-color);
 }
+/* END FOOTER ADDRESS */
+
+/* FOOTER JOIN IN! */
+.footer-social-links {
+    width: 206px;
+    height: 80px;
+    margin-top: 72px;
+    margin-left: 70px;
+}
+
+.slogan-for-social {
+    color: var(--norm-accent-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 206px;
+} 
+
+.footer-socials-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 10%);  
+}
+
+.footer-social-icon {
+    fill: var(--norm-accent-color);
+}
+
+.footer-socials-box:hover,
+.footer-socials-box:focus {
+    background-color: var(--spec-accent-color);
+}
+/* END FOOTER JOIN IN! */
+
 /* END FOOTER */
 
 /* PORTFOLIO */
