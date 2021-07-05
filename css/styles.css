@@ -98,6 +98,10 @@ p {
 .nav-list,
 .nav-contacts {
     display: flex;
+}
+
+.nav-contacts .header-contacts {
+    display: flex;
     align-items: center;
 }
 
@@ -211,14 +215,34 @@ p {
     color: var(--titles-color);
 }
 
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
 .header-contacts {
     color: inherit;
+}
+
+.contacts-icons {
+    fill: var(--text-color);
+    margin-right: 10px;
+}
+
+.header-contacts:hover .contacts-icons,
+.header-contacts:focus .contacts-icons{
+    fill: var(--spec-accent-color);
 }
 /* END HEADER */
 
 /* HERO */
 .hero-section {
-    background-image: url(../imgs/desk-cap/cap.jpg);
+    background-image:
+        linear-gradient(
+            0deg,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url(../imgs/desk-cap/cap.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
